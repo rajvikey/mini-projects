@@ -1,0 +1,147 @@
+header{
+    background-color: antiquewhite;
+    height: 250px;
+}
+.card
+{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+}
+/* Direct child selector */
+header > h1
+{
+    color: blue;
+}
+.card > h1
+{
+    color: brown;
+}
+header > #para2
+{
+    background-color: cadetblue;
+    text-align: center;
+    font-weight: bold;
+}
+header > button
+{
+    text-transform: uppercase;
+}
+.card1
+{
+   height: 400px; 
+   width: 600px;
+   background-color: red;
+}
+.card1 > .box
+{
+    height: 300px;
+    width: 500px;
+    background-color: brown;
+}
+.card1 > .box > .container
+{
+    height: 200px;
+    width: 400px;
+    background-color: yellowgreen;
+}
+.card1 h2{
+    color:aqua;
+}
+main > button
+{
+    background-color: red;
+    font-size: 20px;
+}
+
+/*  hover  */
+main > button:hover{
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: cadetblue;
+    text-decoration: double;
+}
+/* active */
+main > button:active
+{
+    background-color: blueviolet;
+    font-weight: bold;
+    color:whitesmoke;
+}
+/* nth child */
+    main > ol > li:nth-child(2n+1)
+    {
+        background-color: darkcyan;
+    }
+    main > ol > li:nth-child(2n)
+    {
+        background-color: darkkhaki;
+    }
+    .con > h1
+    {
+        text-align: center;
+        text-transform: capitalize;
+        letter-spacing: 1.4px;
+    }
+    .con > p{
+        font-size: 22px;
+        text-align: justify;
+        text-indent: 70px;
+    }
+    /* 4.Pseudo Element Selector */
+    .con > p::first-letter
+    {
+        font-size: 40px;
+        color: brown;
+    }
+    .con > p::first-line
+    {
+        background-color: antiquewhite;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .con > h1::before
+    {
+        content: "***";
+        color           : brown;
+    }
+    .con > h1::after
+    {
+        content: "***";
+        color: brown;
+    }
+    .con > p::selection
+    {
+        background-color: chocolate;
+        color: wheat;
+    }
+    .con > ul > li{
+        font-size: 25px;
+    }
+    .con > ul > li::marker{
+        color: brown;
+    }
+    .con >ul >li:nth-child(2n)::marker
+    {
+        color: blue;
+    }
+    /* 5.Attribute selector */
+
+    form > input[type="text"]
+    {
+        background-color: chartreuse;
+        color: white;
+    }
+    form >input[type="password"]
+    {
+        background-color: blueviolet;
+    }
+
+    form > input
+    {
+        height: 30px;
+        width: 280px;
+        font-size: 24px;
+    }
+    

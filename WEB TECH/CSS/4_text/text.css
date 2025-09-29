@@ -1,0 +1,21 @@
+header
+{
+    background-color:gold;
+}
+#topic
+{
+    color:red;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration:underline;
+    letter-spacing: 5px;
+    text-shadow: 2px 3px 2px black;
+}
+#para
+{
+    font-size: 20px;
+    text-align: justify;
+    word-spacing: 5px; 
+    text-indent: 150px;
+    
+}

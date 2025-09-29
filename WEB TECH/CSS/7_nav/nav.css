@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    background-color: rgb(100, 20,10);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+header>div{
+    display: flex;
+    gap: 20px;
+} 
+header>div>h1
+{
+    color: whitesmoke;
+}
+nav
+{
+   background-color:black;
+   margin-top: 20px;  
+   display:flex;
+   justify-content: end;
+}
+nav>ul
+{
+    display: flex;
+    list-style-type: none;
+}
+nav>ul>li>a
+{
+  text-decoration: none;
+  color: red;
+  text-transform: capitalize;
+  padding: 20px;
+  display: block;
+  font-size: 22px;
+}
+nav>ul>li>a:hover
+{
+    background-color: rgb(185, 241, 110);
+    color: black;
+}
+nav>ul>li>a:active
+{
+    background-color: rgb(172, 153, 253);
+    color: lightgoldenrodyellow;
+}

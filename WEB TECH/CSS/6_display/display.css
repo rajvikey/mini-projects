@@ -1,0 +1,35 @@
+/* section
+{
+    display: flex;
+    background-color: aqua;    
+
+}
+ h1
+{
+    background-color: blueviolet;
+    width:300px;
+    
+}
+ a
+{
+    background-color: cadetblue;
+    width: 300px;
+} 
+ button
+{
+ background-color: chocolate;
+ width: 200px;
+
+}  */
+
+div{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+div > h1
+{
+    color: white;
+}
