@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section
+{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: 100px 100px 100px;
+    
+
+}
+header{
+    background-color: lightgreen;
+    grid-column: span 3;
+}
+section :nth-child(2){
+     background-color: lightskyblue;
+    grid-row: span 2;
+}
+section :nth-child(4){
+     background-color: lightcyan;
+}
+
+main{
+    background-color: lightsalmon;
+}
+footer{
+    background-color: darkkhaki;
+    grid-column: span 2;
+}
+section :nth-child(1n)
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid  black;
+    font-weight: bold;
+}

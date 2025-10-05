@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20%;
+    grid-template-rows: 100px 150px 200px;
+    /* justify-content:space-around; */
+    background-color: lightgreen;
+    height: 100vh;
+    /* align-content: space-evenly; */   
+}
+
+section :nth-child(2n)
+{
+    background-color: violet;
+    border: 1px solid black;
+}
+section :nth-child(2n-1)
+{
+    background-color:orange;
+    border: 1px solid black;
+}
+section :nth-child(1)
+{
+    grid-column:span 4;
+    background-color: aqua;
+}
+
+section :nth-child(2)
+{
+    grid-row:span 2;
+    background-color: beige;
+}
+section :nth-child(5)
+{
+    grid-column:span 4;
+    background-color: aqua;
+}
+section :nth-child(4)
+{
+    grid-column:span 2;
+    background-color: aqua;
+}
