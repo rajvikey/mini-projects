@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+color: white;
+letter-spacing: 5px;
+font-size: 30px;
+background-color: aquamarine;
+text-shadow: 1px 3px 1px black;
+
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifZFVA3M8v1DJ5VwaTnvkXeJKhyX8msTdGcBgJTK7rmyxhtMT9Kny3cGuI3rgiYT6ndKfiE0p-ymOaE_Qrni4HT2DlSIDSROc3rVE-FxFsPjwQa54bIkCEoPaaTZUGcze2aZNt0A4TjthQ/w3840-h2400-c/iron-man-infinity-stones-avengers-endgame-uhdpaper.com-4K-176.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://images6.alphacoders.com/438/thumb-1920-438716.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://cdn.marvel.com/content/2x/004tho_ons_mas_mob_04.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://wallpapers.com/images/featured/hulk-6mm236yblh8z7yed.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}

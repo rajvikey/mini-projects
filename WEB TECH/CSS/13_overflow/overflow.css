@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.outer{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.outer>.inner{
+    height: 400px;
+    width: 300px;
+    background-color: whitesmoke;
+    box-shadow: 1px 4px 5px black;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow:auto; */
+    overflow-y: scroll;
+}
+.outer>.inner>h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-bottom: 8px;
+}
+.outer>.inner>p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

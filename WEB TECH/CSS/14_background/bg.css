@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    background-color: greenyellow;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.outer>.inner{
+    height: 500px;
+    width: 800px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px black;
+
+    background-image: url("https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+    background-repeat: round;
+    background-size: cover;
+    background-position: center;
+}

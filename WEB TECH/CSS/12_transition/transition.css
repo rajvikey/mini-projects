@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    gap: 20px;
+    color: white;
+}
+.outer>.inner{
+    height: 250px;
+    width: 250px;
+    background-color: greenyellow;
+    /* transition: all 2s ease-in 1s; */
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+.outer>.inner:hover{
+    background-color: orangered;
+    border-radius: 50%;
+}
