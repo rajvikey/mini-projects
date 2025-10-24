@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.outer{
+    height: 100vh;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner{
+    background-color: white;
+    height: 88%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Navbar */
+.inner>header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+  border-radius: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #e63946;
+  cursor: pointer;
+}
+
+header>ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+header>ul>li>a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+header>ul>li>a:hover {
+  color: #0077ff;
+}
+header>.button{
+  display: flex;
+  gap: 10px;
+}
+header>.button>button{
+  padding: 10px;
+}
+header>.button>button:nth-child(1){
+  color: #fff;
+  background-color: #005bcc;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+header>.button>button:nth-child(1):hover {
+  background-color: #0077ff;
+}
+header>.button>button:nth-child(2){
+  color: #005bcc;
+  text-transform: uppercase;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+}
+header>.button>button:nth-child(2):hover {
+  background-color: rgb(197, 195, 195);
+}
+main{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.inner>main>.left{
+  flex-basis: 50%;
+}
+.inner>main>.right{
+  flex-basis: 50%;
+}
+.inner>main>.right>img{
+  height: 70%;
+}
+.left{
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.left>h1{
+  word-spacing: 4px;
+  margin-bottom: 20px;
+}
+.left>p{
+  margin-bottom: 20px;
+  letter-spacing: 1.1px;
+  line-height: 28px;
+  text-align: justify;
+  padding-right: 30px;
+}
+.left>input{
+  width: 60%;
+  height: 35px;
+}
+
+.left>button {
+  background-color: #005bcc;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.left>button:hover {
+  background-color: #0077ff;
+}
+.left>.socialmedia{
+  display: flex;
+  gap: 80px;
+  margin-left: 20px;
+
+}
+.left>.socialmedia>a{
+  color: #333;
+}

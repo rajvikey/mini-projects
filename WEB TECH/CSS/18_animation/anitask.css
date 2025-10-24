@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.inner{
+    height: 50%;
+    width: 80%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.inner>h1{
+    text-shadow: 4px 5px 3px blue;
+    animation: up_down 2s ease-in infinite alternate;
+}
+
+@keyframes up_down{
+    from{
+        transform: translateY(-80px);
+    }
+    to{
+        transform: translateY(80px);
+        color: red;
+        text-shadow: 4px 3px 5px red;
+        font-weight: bold;
+    }
+}
+.inner>h1:nth-child(2){
+    animation-delay: 0.1s;
+}
+.inner>h1:nth-child(3){
+    animation-delay: 0.2s;
+}
+.inner>h1:nth-child(4){
+    animation-delay: 0.3s;
+}
+.inner>h1:nth-child(5){
+    animation-delay: 0.4s;
+}
+.inner>h1:nth-child(6){
+    animation-delay: 0.5s;
+}
+.inner>h1:nth-child(7){
+    animation-delay: 0.6s;
+}
+.inner>h1:nth-child(8){
+    animation-delay: 0.7s;
+}
+.inner>h1:nth-child(9){
+    animation-delay: 0.8s;
+}
+.inner>h1:nth-child(10){
+    animation-delay: 0.9s;
+}
+.inner>h1:nth-child(11){
+    animation-delay: 1s;
+}
